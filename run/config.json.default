@@ -5,7 +5,7 @@
         "user": "USER",
         "password": "PASSWORD",
         "schema": "SCHEMA"
-    }
+    },
     "bithumb": {
         "db_tbl_nm": "bithumb_daily_candle",
         "base_assets": ["BTC", "ETH", "XRP"]

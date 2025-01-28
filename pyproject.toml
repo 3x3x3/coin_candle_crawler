@@ -4,7 +4,7 @@ build-backend = 'setuptools.build_meta'
 
 [project]
 name = 'coin_candle_crawler'
-version = '0.0.1'
+version = '1.0.0'
 description = 'coin candle crawler'
 requires-python = '>=3.9'
 
