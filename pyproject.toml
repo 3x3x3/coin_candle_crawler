@@ -1,0 +1,21 @@
+[build-system]
+requires = ['setuptools >= 61.0']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'coin_candle_crawler'
+version = '0.0.1'
+description = 'coin candle crawler'
+requires-python = '>=3.9'
+
+dependencies = [
+	'requests',
+	'pymysql',
+]
+
+classifiers = [
+    'Programming Language :: Python'
+]
+
+[tool.setuptools.packages]
+find = {}
