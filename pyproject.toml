@@ -4,7 +4,7 @@ build-backend = 'setuptools.build_meta'
 
 [project]
 name = 'coin_candle_crawler'
-version = '1.0.0'
+version = '1.0.1'
 description = 'coin candle crawler'
 requires-python = '>=3.9'
 
@@ -17,5 +17,5 @@ classifiers = [
     'Programming Language :: Python'
 ]
 
-[tool.setuptools.packages]
-find = {}
+[tool.setuptools.packages.find]
+exclude = ["run", "build*"]
